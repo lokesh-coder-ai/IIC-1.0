@@ -1,0 +1,107 @@
+:root {
+    --col1: rgb(0, 30, 112);
+    --col2: white;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+.bold{
+    font-weight: bold;
+}
+.bg {
+    background-color: var(--col1);
+    padding: 10px;
+    color: white;
+    margin-right: 15px;
+}
+#about h2{
+    font-size: 35px;
+    color: var(--col1);
+    
+}
+
+#about {
+    padding: 1rem;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    background-repeat: no-repeat;
+}
+#about p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 1rem;
+    padding-right: 2rem;
+}
+#about .con {
+    flex: 1;
+    padding: 2rem;
+}
+
+#about .con .content {
+    margin-bottom: 4em;
+}
+
+#about .con p {
+    padding-top: 1em;
+    padding-left: 2em;
+}
+#about .con ul {
+    padding-top: 1em;
+}
+#about .con .content span i,
+h2 {
+    display: inline;
+}
+
+#about .con .content span i {
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+#about .image {
+    flex: 1;
+}
+
+#about .image img {
+    display: block;
+    margin: auto;
+    padding-top: 3.5rem;
+    width: 100%;
+}
+.border_box{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    #about {
+        margin-top: 3rem;
+        flex-flow: column-reverse wrap;
+        margin: 0%;
+        padding: 0;
+    }
+
+    #about .con {
+        padding:5rem 0;
+    }
+
+
+    #about .content p,
+    ul {
+        padding-left: 1.5em;
+    }
+    .border_box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}

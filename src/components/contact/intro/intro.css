@@ -1,0 +1,36 @@
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--main-blue);
+    color: var(--white);
+    height: 8em;
+    padding: 0;
+  }
+  
+  .intro-h2 {
+    margin: 0;
+
+  }
+  
+  .intro-p {
+    max-width: 85vw;
+ 
+  }
+  
+  
+  @media screen and (min-width: 600px) {
+    .intro-container {
+      justify-content: start;
+      align-items: flex-start;
+      text-align: center;
+      padding: 2em;
+      height: 10em;
+    }
+  
+    .intro-p {
+      max-width: 450px;
+    }
+  }

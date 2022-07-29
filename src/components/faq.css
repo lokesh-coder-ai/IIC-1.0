@@ -1,0 +1,139 @@
+#faq {
+    margin: 2em;
+  }
+   #faq span {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+  }
+  #faq #faq span i {
+    padding: 10px 15px;
+  }
+  #faq .App {
+    text-align: center;
+  }
+  #faq .App-logo {
+    height: 40vmin;
+    pointer-faq: none;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    #faq .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  #faq .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  #faq .App-link {
+    color: #61dafb;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #faq #faq {
+      margin: 0;
+    }
+    #faq #faq .row {
+      margin: 1em;
+    }
+  }
+  #faq *, #faq *::before, #faq *::after {
+    box-sizing: border-box;
+  }
+  #faq .main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  #faq h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+  #faq img {
+    height: 200px;
+    width: 100%;
+    vertical-align: middle;
+  }
+  #faq .btn {
+    color:white;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1.5px solid whit;
+    background-color: rgb(0, 30, 112);
+   
+  }
+  #faq .btn:hover {
+    background-color:white ;
+    font-weight: 700;
+    border: 1.5px solid rgb(0, 30, 112);
+    color: rgb(0, 30, 112);
+  }
+  #faq .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #faq .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  @media (min-width: 40rem) {
+    #faq .cards_item {
+      width: 50%;
+    }
+  }
+  @media (min-width: 56rem) {
+    #faq .cards_item {
+      width: 33.3333%;
+    }
+  }
+  #faq .card {
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px black;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #faq .card_content {
+    padding: 1rem;
+  }
+  #faq .card_title {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  #faq .card_text {
+    color: black;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    text-transform: capitalize;
+  
+  }
+  
